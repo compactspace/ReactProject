@@ -134,10 +134,7 @@ app.use('/insertclassinfo', async (req, res) => {
 
 
 
-    //주의 해라
-    // 컬럼 onedayclass_info 는 엮인게 너무 많아서 지금 살려만 둔다 삭제하면 어딘가에서 에러 터진다..!
-    //  reserve_img 이미지는 너무 많아서 배열로 받아 이미지 테이블을 따로 만들어서 인설트 반복문 돌릴꺼고
-    // 클래스 디테일 정보는 컬럼이 많아서  classtotalinfo 객체 형태로 가져와서 다시 구조분해 할당으로 받는거임
+   
 
     let { onedayclass_name,
         onedayclass_price,
